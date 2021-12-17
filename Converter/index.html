@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Converter App</title>
+</head>
+<body>
+    <div class="container">
+        <h1 class="display-4 text-center mb-3">Converter</h1>
+        <form>
+            <h4 class="display-5 text-left mb-3">Weight</h4>
+            <div class="form-group">
+                <input type="number" class="form-control form-control-lg" id="kgsInput" placeholder="Enter Kilograms..." />
+            </div>
+        </form>
+        <div class="card card-primary mb-5">
+            <div class="card-block">
+                <h4>Pounds:</h4>
+                <div id="lbsOutput"></div>
+            </div>
+        </div>
+        <form>
+            <h4 class="display-5 text-left mb-3">Measurement</h4>
+            <div class="form-group">
+                <input type="number" class="form-control form-control-lg" id="feetInput" placeholder="Enter Feet..." />
+            </div>
+        </form>
+        <div class="card card-success mb-5">
+            <div class="card-block">
+                <h4>Centimeters:</h4>
+                <div id="cmsOutput"></div>
+            </div>
+        </div>
+
+        <form>
+            <h4 class="display-5 text-left mb-3">Celsius</h4>
+            <div class="form-group">
+                <input type="number" class="form-control form-control-lg" id="tempInput" placeholder="Enter temperature..." />
+            </div>
+        </form>
+        <div class="card card-warning mb-5">
+            <div class="card-block">
+                <h4>Farenheit:</h4>
+                <div id="tempOutput"></div>
+            </div>
+        </div>
+
+        <form>
+            <h4 class="display-5 text-left mb-3">INR</h4>
+            <div class="form-group">
+                <input type="number" class="form-control form-control-lg" id="amtInput" placeholder="Enter INR..." />
+            </div>
+        </form>
+        <div class="card card-info mb-5">
+            <div class="card-block">
+                <h4>USD:</h4>
+                <div id="amtOutput"></div>
+            </div>
+        </div>
+
+        <form>
+            <h4 class="display-5 text-left mb-3">HOURS</h4>
+            <div class="form-group">
+                <input type="number" class="form-control form-control-lg" id="timeInput" placeholder="Enter INR..." />
+            </div>
+        </form>
+        <div class="card card-info mb-5">
+            <div class="card-block">
+                <h4>SECONDS:</h4>
+                <div id="timeOutput"></div>
+            </div>
+        </div>
+
+        <form>
+            <h4 class="display-5 text-left mb-3">MILES</h4>
+            <div class="form-group">
+                <input type="number" class="form-control form-control-lg" id="distanceInput" placeholder="Enter INR..." />
+            </div>
+        </form>
+        <div class="card card-success mb-5">
+            <div class="card-block">
+                <h4>LIGHT YEAR:</h4>
+                <div id="distanceOutput"></div>
+            </div>
+        </div>
+
+        <form>
+            <h4 class="display-5 text-left mb-3">MILE</h4>
+            <div class="form-group">
+                <input type="number" class="form-control form-control-lg" id="mileInput" placeholder="Enter INR..." />
+            </div>
+        </form>
+        <div class="card card-info mb-5">
+            <div class="card-block">
+                <h4>FEET:</h4>
+                <div id="mileOutput"></div>
+            </div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
